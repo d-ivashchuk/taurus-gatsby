@@ -3,7 +3,7 @@ module.exports = {
     title: 'Taurus Logistics',
     author: 'Dimitri',
   },
-  pathPrefix: '/',
+  pathPrefix: '/taurus-gatsby',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -19,6 +19,14 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `photos`,
+        path: `${__dirname}/src/assets/photos`,
+      },
+    },
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {

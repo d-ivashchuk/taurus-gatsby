@@ -77,9 +77,9 @@ class Homepage extends React.Component {
               <p>Pictures of vessel and equipment</p>
               <ul className="actions">
                 <li>
-                  <a href="#" className="button">
-                    More
-                  </a>
+                  <Link to="/photos" className="button">
+                    more
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -105,9 +105,9 @@ class Homepage extends React.Component {
               <p>What we do and how we do it?</p>
               <ul className="actions">
                 <li>
-                  <a href="/news" className="button">
-                    More
-                  </a>
+                  <Link to="/news" className="button">
+                    more
+                  </Link>
                 </li>
               </ul>
             </div>

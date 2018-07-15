@@ -1,4 +1,4 @@
-# Simple React+Redux counter component
+# Gatsby.js site
 
 This site is built using Gatsby.js as a small freelance project.
 
