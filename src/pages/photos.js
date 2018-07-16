@@ -31,3 +31,13 @@ class Photos extends Component {
 }
 
 export default Photos
+
+// export const query = graphql`
+//   query PhotosQuery {
+//     images: allImageSharp(filter: { id: { regex: "/photos/" } }) {
+//        sizes(maxWidth: 2000) {
+//          ...GatsbyImageSharpSizes
+//        }
+//      }
+//   }
+// `

@@ -5,6 +5,9 @@ const newsPage = ({ data }) => {
   return (
     <div>
       <section>
+        <header className="news-header">
+          <h1>News</h1>
+        </header>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <Link key={node.id} to={node.frontmatter.path}>
             <div className="news">

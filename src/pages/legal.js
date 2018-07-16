@@ -1,13 +1,21 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Img from 'gatsby-image'
 
 import seaworthiness from '../assets/pdf/seaworthiness.pdf'
 import air_pollution from '../assets/pdf/air_pollution.pdf'
 import fda_certificate from '../assets/pdf/fda_certificate.pdf'
 import safety_certificate from '../assets/pdf/safety_certificate.pdf'
 
-const SecondPage = () => (
+const SecondPage = ({ data }) => (
   <div>
+    <Img
+      className="test"
+      title="Header image"
+      alt="Greek food laid out on table"
+      sizes={data.headerImage.sizes}
+    />
+
     <section className="main style2">
       <div className="grid-wrapper">
         <div className="col-12">
@@ -24,7 +32,7 @@ const SecondPage = () => (
     </section>
     <br />
 
-    <section>
+    <section className="main style">
       <div className="grid-wrapper">
         <div className="col-12">
           <header className="major">
@@ -72,3 +80,13 @@ const SecondPage = () => (
 )
 
 export default SecondPage
+
+export const query = graphql`
+  query HeaderQuery {
+    headerImage: imageSharp(id: { regex: "/headers/" }) {
+      sizes(maxWidth: 2000) {
+        ...GatsbyImageSharpSizes
+      }
+    }
+  }
+`

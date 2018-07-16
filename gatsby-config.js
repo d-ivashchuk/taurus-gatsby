@@ -26,6 +26,13 @@ module.exports = {
         path: `${__dirname}/src/assets/photos`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `headers`,
+        path: `${__dirname}/src/assets/headers`,
+      },
+    },
 
     {
       resolve: `gatsby-transformer-remark`,
