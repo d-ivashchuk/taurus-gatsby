@@ -13,7 +13,6 @@ import photo09 from '../assets/photos/9.jpeg'
 import photo10 from '../assets/photos/10.jpeg'
 
 const photos = ({ data }) => {
-  data.allFile.edges.map(test => console.log(test.node.childImageSharp.sizes))
   return (
     <div className="g-container">
       {data.allFile.edges.map(entry => (
