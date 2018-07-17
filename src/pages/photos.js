@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Img from 'gatsby-image'
 
 import photo01 from '../assets/photos/1.jpeg'
 import photo02 from '../assets/photos/2.jpeg'
@@ -11,33 +12,41 @@ import photo08 from '../assets/photos/8.jpeg'
 import photo09 from '../assets/photos/9.jpeg'
 import photo10 from '../assets/photos/10.jpeg'
 
-class Photos extends Component {
-  render() {
-    return (
-      <div className="grid-container">
-        <img className="grid-item" src={photo01} alt="" />
-        <img className="grid-item" src={photo02} alt="" />
-        <img className="grid-item" src={photo03} alt="" />
-        <img className="grid-item" src={photo04} alt="" />
-        <img className="grid-item" src={photo05} alt="" />
-        <img className="grid-item" src={photo06} alt="" />
-        <img className="grid-item" src={photo07} alt="" />
-        <img className="grid-item" src={photo08} alt="" />
-        <img className="grid-item" src={photo09} alt="" />
-        <img className="grid-item" src={photo10} alt="" />
-      </div>
-    )
-  }
+const photos = ({ data }) => {
+  data.allFile.edges.map(test => console.log(test.node.childImageSharp.sizes))
+  return (
+    <div className="g-container">
+      {data.allFile.edges.map(entry => (
+        <Img
+          className="photo"
+          title="Header image"
+          alt="Greek food laid out on table"
+          sizes={entry.node.childImageSharp.sizes}
+        />
+      ))}
+    </div>
+  )
 }
 
-export default Photos
+export default photos
 
-// export const query = graphql`
-//   query PhotosQuery {
-//     images: allImageSharp(filter: { id: { regex: "/photos/" } }) {
-//        sizes(maxWidth: 2000) {
-//          ...GatsbyImageSharpSizes
-//        }
-//      }
-//   }
-// `
+export const query = graphql`
+  query PhotosQuery {
+    allFile(
+      filter: {
+        extension: { regex: "/(jpeg|jpg|gif|png)/" }
+        sourceInstanceName: { eq: "photos" }
+      }
+    ) {
+      edges {
+        node {
+          childImageSharp {
+            sizes(maxWidth: 2000) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
+      }
+    }
+  }
+`

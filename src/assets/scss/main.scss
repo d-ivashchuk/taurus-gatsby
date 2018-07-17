@@ -1539,10 +1539,8 @@ button,
   grid-gap: 5px;
   padding: 10px;
 }
-.grid-item {
-  width: 100%;
-}
-.test {
+
+.header-legal {
   @media (min-width: 1200px) {
     width: 60%;
     margin: 10px auto 10px auto;
@@ -1553,4 +1551,23 @@ button,
 .news-header {
   text-align: center;
   font-weight: bold;
+}
+
+.photo {
+  width: 100%;
+  &:hover {
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+  }
+}
+.g-container {
+  @media (min-width: 1200px) {
+    width: 1200px;
+    margin: auto;
+  }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+
+  grid-gap: 10px;
+  padding: 10px;
 }

@@ -10,7 +10,7 @@ import safety_certificate from '../assets/pdf/safety_certificate.pdf'
 const SecondPage = ({ data }) => (
   <div>
     <Img
-      className="test"
+      className="header-legal"
       title="Header image"
       alt="Greek food laid out on table"
       sizes={data.headerImage.sizes}
