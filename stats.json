@@ -1,0 +1,68 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-546f0b9bbe7d4842558e.js",
+      "component---src-pages-index-js-546f0b9bbe7d4842558e.js.map"
+    ],
+    "component---src-pages-legal-js": [
+      "component---src-pages-legal-js-26b0dbac585f1b80be0c.js",
+      "component---src-pages-legal-js-26b0dbac585f1b80be0c.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-news-js": [
+      "component---src-pages-news-js-c6e7f76958c097f64dab.js",
+      "component---src-pages-news-js-c6e7f76958c097f64dab.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-76b62c48f713f9c93891.js",
+      "component---src-templates-blog-post-js-76b62c48f713f9c93891.js.map"
+    ],
+    "path---legal": [
+      "path---legal-a1653aaf7fb92e72d5e4.js",
+      "path---legal-a1653aaf7fb92e72d5e4.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-04d1e54560337c6c429a.js",
+      "component---src-layouts-index-js-04d1e54560337c6c429a.js.map"
+    ],
+    "path---index": [
+      "path---index-643349eb4c8da419bf4d.js",
+      "path---index-643349eb4c8da419bf4d.js.map"
+    ],
+    "path---photos": [
+      "path---photos-84672a067480ca2d674a.js",
+      "path---photos-84672a067480ca2d674a.js.map"
+    ],
+    "commons": [
+      "commons-922bd637923bf00f2c28.js",
+      "commons-922bd637923bf00f2c28.js.map"
+    ],
+    "path---taurus-third": [
+      "path---taurus-third-5cd874f9a8ce111c2e46.js",
+      "path---taurus-third-5cd874f9a8ce111c2e46.js.map"
+    ],
+    "path---taurus-second": [
+      "path---taurus-second-707203615e883b775baa.js",
+      "path---taurus-second-707203615e883b775baa.js.map"
+    ],
+    "path---news": [
+      "path---news-92c742c16f3c1369b311.js",
+      "path---news-92c742c16f3c1369b311.js.map"
+    ],
+    "app": [
+      "app-510d47c940864138c1e6.js",
+      "app-510d47c940864138c1e6.js.map"
+    ],
+    "component---src-pages-photos-js": [
+      "component---src-pages-photos-js-dd2b2c0c37fe3ff7bbdd.js",
+      "component---src-pages-photos-js-dd2b2c0c37fe3ff7bbdd.js.map"
+    ],
+    "path---taurus-first": [
+      "path---taurus-first-928e6db4c14992d15be5.js",
+      "path---taurus-first-928e6db4c14992d15be5.js.map"
+    ]
+  }
+}
