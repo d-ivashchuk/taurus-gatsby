@@ -85,7 +85,7 @@ export const query = graphql`
   query HeaderQuery {
     headerImage: imageSharp(id: { regex: "/headers/" }) {
       sizes(maxWidth: 2000) {
-        ...GatsbyImageSharpSizes
+        ...GatsbyImageSharpSizes_tracedSVG
       }
     }
   }

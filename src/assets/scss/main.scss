@@ -1071,7 +1071,10 @@ button,
   }
 }
 .logo {
-  height: 80px;
+  height: 7rem;
+  @media (min-width: 1200px) {
+    height: 10rem;
+  }
 }
 
 /* Footer */
@@ -1504,11 +1507,16 @@ button,
 }
 
 .news {
+  border-radius: 5px;
+  width: 80%;
   padding: 30px;
-  margin: 20px 0 40px 0;
+  margin: 20px auto 40px auto;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   &:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  @media (min-width: 1200px) {
+    width: 50%;
   }
 }
 .post {
@@ -1544,7 +1552,7 @@ button,
   @media (min-width: 1200px) {
     width: 60%;
     margin: 10px auto 10px auto;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    // box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
 }
 
@@ -1559,6 +1567,7 @@ button,
     box-shadow: 0 5px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     cursor: pointer;
   }
+  border-radius: 5px;
 }
 .g-container {
   @media (min-width: 1200px) {

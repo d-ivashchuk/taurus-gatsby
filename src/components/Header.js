@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo/logo.svg'
+import logo from '../assets/logo/taurus-logo.svg'
 
 class Header extends React.Component {
   render() {
@@ -7,9 +7,7 @@ class Header extends React.Component {
       <section id="header">
         <div className="inner">
           <img src={logo} alt="alt" className="logo" />
-          <h1>
-            <strong>Taurus</strong> logistics
-          </h1>
+
           <p>
             We own a vessel and engage in different activities connected with
             fishing and scientific expeditioning.
