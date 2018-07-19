@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-546f0b9bbe7d4842558e.js",
-      "component---src-pages-index-js-546f0b9bbe7d4842558e.js.map"
+      "component---src-pages-index-js-6e6b891b08044924500f.js",
+      "component---src-pages-index-js-6e6b891b08044924500f.js.map"
     ],
     "component---src-pages-legal-js": [
       "component---src-pages-legal-js-26b0dbac585f1b80be0c.js",
@@ -21,48 +21,48 @@
       "component---src-templates-blog-post-js-76b62c48f713f9c93891.js.map"
     ],
     "path---legal": [
-      "path---legal-aa2ea06e14f3ddd141a3.js",
-      "path---legal-aa2ea06e14f3ddd141a3.js.map"
+      "path---legal-3b5304f98fc91f5c2eb3.js",
+      "path---legal-3b5304f98fc91f5c2eb3.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-04d1e54560337c6c429a.js",
-      "component---src-layouts-index-js-04d1e54560337c6c429a.js.map"
+      "component---src-layouts-index-js-026b7df67f15edc1e719.js",
+      "component---src-layouts-index-js-026b7df67f15edc1e719.js.map"
     ],
     "path---index": [
       "path---index-643349eb4c8da419bf4d.js",
       "path---index-643349eb4c8da419bf4d.js.map"
     ],
     "path---photos": [
-      "path---photos-96de0d364b0953a5dc56.js",
-      "path---photos-96de0d364b0953a5dc56.js.map"
+      "path---photos-01a28cb4d77608e33a44.js",
+      "path---photos-01a28cb4d77608e33a44.js.map"
     ],
     "commons": [
       "commons-922bd637923bf00f2c28.js",
       "commons-922bd637923bf00f2c28.js.map"
     ],
     "path---taurus-third": [
-      "path---taurus-third-5cd874f9a8ce111c2e46.js",
-      "path---taurus-third-5cd874f9a8ce111c2e46.js.map"
+      "path---taurus-third-e9756e8ad449db683f3a.js",
+      "path---taurus-third-e9756e8ad449db683f3a.js.map"
     ],
     "path---taurus-second": [
-      "path---taurus-second-707203615e883b775baa.js",
-      "path---taurus-second-707203615e883b775baa.js.map"
+      "path---taurus-second-1fccc545a9fe85d1257a.js",
+      "path---taurus-second-1fccc545a9fe85d1257a.js.map"
     ],
     "path---news": [
       "path---news-92c742c16f3c1369b311.js",
       "path---news-92c742c16f3c1369b311.js.map"
     ],
     "app": [
-      "app-4fbfec020316a88be5c1.js",
-      "app-4fbfec020316a88be5c1.js.map"
+      "app-d0e1d7a0e911b2fe285c.js",
+      "app-d0e1d7a0e911b2fe285c.js.map"
     ],
     "component---src-pages-photos-js": [
       "component---src-pages-photos-js-dd2b2c0c37fe3ff7bbdd.js",
       "component---src-pages-photos-js-dd2b2c0c37fe3ff7bbdd.js.map"
     ],
     "path---taurus-first": [
-      "path---taurus-first-928e6db4c14992d15be5.js",
-      "path---taurus-first-928e6db4c14992d15be5.js.map"
+      "path---taurus-first-ab42305fa57df9ccf058.js",
+      "path---taurus-first-ab42305fa57df9ccf058.js.map"
     ]
   }
 }
